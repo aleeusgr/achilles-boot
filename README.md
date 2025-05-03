@@ -1,84 +1,57 @@
-**Secure Smartphone-based Secret Management for Cardano Developers**
-===========================================================
+**Cardano Mobile Wallet on NixOS: A Secure and Sustainable Solution**
 
 **Overview**
---------
 
-This project aims to develop a custom Android ROM that can be installed on compatible smartphones, effectively converting them into secure devices for managing secrets for Cardano developers. This solution addresses the lack of access to hardware wallets, increasing the security of asset management for Cardano developers.
+This project aims to provide a secure and user-friendly mobile wallet for Cardano, leveraging the power of NixOS to manage secrets and ensure the sustainable growth of the Cardano Ecosystem.
+
+**Problem Statement*
+
+Currently, Cardano developers who manage a significant flow of transactions are at risk of asset loss due to the lack of access to hardware wallets. With the ubiquity of smartphones, we can create a secure solution to manage secrets, promoting sustainable growth of Cardano.
 
 **Goals**
---------
 
-* Develop a custom Android ROM that meets the security requirements for managing secrets in Cardano
-* Increase the security of asset management for Cardano developers
-* Reduce the risk of asset loss due to lack of access to hardware wallets
-* Promote sustainable growth of Cardano by making secure secret management accessible to a wider range of developers
+* Research and develop a prototype for a mobile wallet system using NixOS
+* Ensure the security and integrity of user assets
+* Provide a user-friendly interface for Cardano transactions and management
+* Leverage the NixOS ecosystem for simplicity, reliability, and security**
 
-**Technical Requirements**
--------------------------
+**Technology Stack**
 
-* Android 10 or higher
-* Compatible smartphones
-* Cardano developer setup
-
-**Features**
-------------
-
-* Secure secret management for Cardano developers
-* Custom Android ROM for managing secrets
-* Compatibility with multiple smartphones
-* Easy installation and setup
+* NixOS: A Linux distribution that allows for declarative configuration and ensures reproducibility and reliability
+* [Mobile NixOS](https://github.com/mobile-nixos): A superset on top of NixOS Linux, Nixpkgs and Nix, aiming to abstract away the differences between mobile devices.
+* Cardano APIs and SDKs: For interacting with the Cardano blockchain and performing transactions
 
 **Getting Started**
----------------
 
-### Cloning the Repository
-
- Clone this repository to your local machine:
-
-`git clone https://github.com/[Your-Username]/secure-smartphone-secret-management.git`
-
-### Building the ROM
-
-Follow the instructions in the `docs/building-the-rom.md` file to build the custom Android ROM.
-
-### Installing the ROM
-
-Follow the instructions in the `docs/installing-the-rom.md` file to install the custom Android ROM on your compatible smartphone.
-
-### Using the Secure Secret Management System
-
-Follow the instructions in the `docs/using-the-secure-secret-management-system.md` file to use the secure secret management system on your smartphone.
+To get started with this project, you'll need to:
+* Familiarize yourself with NixOS and its configuration language
+* Set up a development environment for mobile NixOS
+* Review the Cardano APIs and SDKs used in this project
 
 **Contributing**
-------------
 
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+We welcome contributions to this project! Whether you're a seasoned developer or a newcomer to the Cardano ecosystem, your input can help shape the future of mobile wallets.
 
-1.  Fork this repository
-2.  Create a new branch for your feature or fix
-3.  Commit your changes
-4.  Push your branch to your forked repository
-5.  Open a pull request to merge your changes into the main branch
+* Fork this repository and start working on a new feature or issue
+* Open an issue to discuss a problem or propose a new idea
+* Join our community channels (insert channels here) to stay up-to-date with the latest developments and discussions
 
 **License**
--------
 
-This project is licensed under the Apache-2.0 License.
+This project is licensed under the Apache 2.0 licencse
+
+**Authors**
+
+* (Insert names and roles here)
 
 **Acknowledgments**
-----------------
 
-* Cardano developers for their feedback and support
-* [List of contributors]
+* (Insert acknowledgments here)
 
-**Maintainers**
--------------
+**Changelog**
 
-* [Your Name]
-* [Your Email]
+* (Insert changelog here)
 
-**Issues and Feedback**
---------------------
+**Support**
 
-If you encounter any problems or have feedback, please open an issue in this repository. We appreciate your input!
+If you have any questions, issues, or feedback, please don't hesitate to reach out to us through the channels mentioned above.
