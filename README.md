@@ -7,8 +7,12 @@ This project aims to provide a secure and user-friendly mobile wallet for Cardan
 **Getting Started**
 
 To get started with this project, you'll need to:
-* install nixos-mobile on your device
-* run `#nixos-rebuild switch --flake .#achilles`
+
+- Prepare the device for development use (unlocking the bootloader).
+- Find the appropriate the sources (mainly the kernel).
+- Write the expressions to build said sources.
+
+https://github.com/mobile-nixos/mobile-nixos/blob/development/doc/porting-guide.adoc
 
 **Contributing**
 
